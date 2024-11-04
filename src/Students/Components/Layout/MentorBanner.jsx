@@ -11,7 +11,7 @@ const MentorBanner = () => {
     <div className="bg-custom-cyan2 flex flex-col items-center justify-center md:flex-row md:justify-center p-3 font-roboto">
       <div className="bg-cyan-100 rounded-md overflow-hidden mb-4 md:mb-0 md:mr-8 lg:block hidden">
         <img 
-          src="images/Mentorimage.PNG" 
+          src="images/Mentorimage.png" 
           alt="Mentor" 
            className="w-10 h-auto object-cover md:h-72 md:w-full" // Adjusting width for larger size
 
