@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="col-span-2 md:col-span-1">
-            <img src="src/assets/images/Logoblack2.png" alt="Eduprops" className="mb-4 h-8" />
+            <img src="images/Logoblack2.png" alt="Eduprops" className="mb-4 h-8" />
             <p className="text-sm mb-4">Eduprops is a registered trademark of Eduprops.com</p>
             <div className="flex space-x-4">
         
@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm">&copy; 2022 Eduprops. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <img src="src/assets/images/Logoblack2.png" alt="Eduprops" className="mb-4 h-8" />
+            <img src="images/Logoblack2.png" alt="Eduprops" className="mb-4 h-8" />
           </div>
         </div>
       </div>

@@ -134,14 +134,14 @@ if (loading) {
       <div className="bg-white rounded-3xl shadow-2xl overflow-hidden w-full max-w-6xl lg:flex">
 
         <div className="w-full lg:w-1/2 bg-gradient-to-br from-custom-cyan2 to-cyan-600 p-8 flex flex-col justify-center items-center  lg:h-full ">
-          <img src="src/assets/images/Logoblack2.png" alt="Eduprops Logo" className="w-24 lg:w-36 mb-6 filter drop-shadow-md" />
+          <img src="images/Logoblack2.png" alt="Eduprops Logo" className="w-24 lg:w-36 mb-6 filter drop-shadow-md" />
           <h1 className="text-2xl lg:text-4xl font-bold text-white mb-6 text-center leading-tight">
             Welcome to Eduprops
             <span className="block text-xl lg:text-3xl font-normal">Your Gateway to Online Learning</span>
           </h1>
           <div className="w-full max-w-md">
             <div className="bg-white bg-opacity-20 backdrop-filter backdrop-blur-sm rounded-xl shadow-lg overflow-hidden">
-              <img src="src/assets/images/SignUpimage.PNG" alt="Learning Illustration" className="w-full mx-auto" />
+              <img src="images/SignUpimage.png" alt="Learning Illustration" className="w-full mx-auto" />
             </div>
           </div>
         </div>

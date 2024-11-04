@@ -48,7 +48,7 @@ const AboutPage = () => {
   <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 md:mb-10 text-custom-cyan2">ABOUT US</h2>
   <div className="mx-auto bg-white rounded-lg overflow-hidden flex flex-col lg:flex-row">
     <div className="lg:w-1/3">
-      <img src="src/assets/images/SignUpimage.png" alt="About Us" className="w-full h-full object-cover" />
+      <img src="images/SignUpimage.png" alt="About Us" className="w-full h-full object-cover" />
     </div>
     <div className="lg:w-2/3 p-6 md:p-8 lg:p-12 flex flex-col justify-center">
       <h1 className="text-xl md:text-2xl lg:text-4xl xl:text-5xl font-semibold mb-4 md:mb-6 text-custom-cyan">

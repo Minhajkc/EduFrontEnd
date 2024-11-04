@@ -82,7 +82,7 @@ status()
       <div className="container mx-auto px-5 py-2 ">
         <div className="flex items-center justify-between flex-wrap">
           <div className="flex items-center flex-shrink-0 text-custom-cyan mr-6">
-            <img src="src/assets/images/Logoblack2.png" alt="Logo" className="w-15 h-12" />
+            <img src="images/Logoblack2.png" alt="Logo" className="w-15 h-12" />
           </div>
           <div className="hidden md:block relative flex-grow max-w-md mx-4">
            <SearchBarWithSuggestions/>

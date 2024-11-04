@@ -58,7 +58,7 @@ const Hero = () => {
        <div className="hidden lg:block lg:w-1/2 relative ml-5 ">
   <div className="w-full h-[600px] relative">
 
-  <img src="src/assets/images/Newhome.png" alt="Student 3" className="w-[600px] ml-6" />
+  <img src="images/Newhome.png" alt="Student 3" className="w-[600px] ml-6" />
 
 
  
