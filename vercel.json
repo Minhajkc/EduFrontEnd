@@ -9,7 +9,7 @@
           },
           {
             "key": "Access-Control-Allow-Origin",
-            "value": "https://eduserver-04u2.onrender.com"
+            "value": "https://eduprops.vercel.app"
           },
           {
             "key": "Access-Control-Allow-Methods",
@@ -22,4 +22,4 @@
         ]
       }
     ]
-  }
+}
