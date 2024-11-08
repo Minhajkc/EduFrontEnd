@@ -49,7 +49,7 @@ const LoginPage = () => {
       setLoading(true); 
         try {
          const student = await loginStudent(formData,navigate);
-         console.log(student,'thisisstudent')
+   
          if(student){
              dispatch(setStudentId(student.data.Student._id,student.data.Student.membershipType))
              localStorage.setItem('studentId',student.data.Student._id)
