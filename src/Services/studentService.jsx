@@ -11,6 +11,7 @@ export const loginStudent = async (formData, navigate) => {
             headers: {
                 'Content-Type': 'application/json',
             },
+            withCredentials: true,
         });
         showToastSuccess('Login successful!');
         navigate('/'); 
@@ -30,6 +31,7 @@ export const registerStudent = async (formData, navigate) => {
             headers: {
                 'Content-Type': 'application/json',
             },
+            withCredentials: true,
         });
         showToastSuccess('OTP sent to email!');
         return response;
@@ -45,6 +47,8 @@ export const handleGoogleAuth = async (response, navigate,dispatch) => {
     try {
         const result = await StudentInstance.post('/auth/google', {
             idToken: response.credential,
+        },{
+          withCredentials: true,
         });
         console.log(result,'m new')
         showToastSuccess('Sign-up successful!');
