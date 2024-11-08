@@ -52,7 +52,7 @@ const MentorLoginPage = () => {
             Welcome to Eduprops Online Learning Platform, For Mentor
           </h1>
           <div className="mt-4 md:mt-8">
-            <img src="src/assets/images/Logoblack2.png" alt="Learning illustration" className="w-full max-w-xs mx-auto" />
+            <img src="images/Logoblack2.png" alt="Learning illustration" className="w-full max-w-xs mx-auto" />
           </div>
         </div>
       </div>

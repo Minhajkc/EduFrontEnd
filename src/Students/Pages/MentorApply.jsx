@@ -33,7 +33,7 @@ const MentorApply = () => {
         <div className="w-full lg:w-1/3">
           <div className="bg-custom-cyan2 rounded-lg overflow-hidden">
             <img 
-              src="images/SignUpimage.PNG" 
+              src="images/SignUpimage.png" 
               alt="Mentor" 
               className="w-full object-cover"
             />

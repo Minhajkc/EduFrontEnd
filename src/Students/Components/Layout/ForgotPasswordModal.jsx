@@ -123,7 +123,7 @@ const ForgotPasswordModal = ({ isOpen, onRequestClose }) => {
                 </button>
                 <div className="flex justify-center items-center">
     <img
-        src="src/assets/images/Logoblack2.png"
+        src="images/Logoblack2.png"
         alt="Eduprops Logo"
         className="w-24 lg:w-36 mb-6 filter drop-shadow-md"
     />

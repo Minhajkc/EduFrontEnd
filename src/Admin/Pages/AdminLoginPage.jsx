@@ -51,7 +51,7 @@ const AdminLoginPage = () => {
             </h1>
             <div className="mt-4 md:mt-8">
               {/* Add an illustration or icon here */}
-              <img src="src/assets/images/Logoblack2.png" alt="Learning illustration" className="w-full max-w-xs mx-auto" />
+              <img src="images/Logoblack2.png" alt="Learning illustration" className="w-full max-w-xs mx-auto" />
             </div>
           </div>
         </div>
