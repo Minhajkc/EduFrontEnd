@@ -6,11 +6,13 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/': {
-        target: 'https://eduserver-04u2.onrender.com', // Your backend URL
+      // Specify only the API routes that need to go to the backend
+      '/api': {
+        target: 'https://eduserver-04u2.onrender.com',
         changeOrigin: true,
-        secure: true
-      },
+        secure: true,
+        rewrite: (path) => path.replace(/^\/api/, '') // Optional: Remove `/api` prefix before sending to backend
+      }
     },
   },
 });

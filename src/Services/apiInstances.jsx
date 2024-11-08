@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const StudentInstance = axios.create({
-    baseURL: "https://eduserver-04u2.onrender.com",
+    baseURL: "https://eduserver-04u2.onrender.com/api",
     headers: {
         "Content-Type": "application/json", 
         },
@@ -13,7 +13,7 @@ const StudentInstance = axios.create({
 
 
 const MentorInstance = axios.create({
-    baseURL: "https://eduserver-04u2.onrender.com/Mentor",
+    baseURL: "https://eduserver-04u2.onrender.com/api/Mentor",
     headers: {
         'Content-Type': 'multipart/form-data'
       },
@@ -22,7 +22,7 @@ const MentorInstance = axios.create({
 })
 
 const AdminInstance = axios.create({
-    baseURL: "https://eduserver-04u2.onrender.com/Admin",
+    baseURL: "https://eduserver-04u2.onrender.com/api/Admin",
     
         timeout:120000,
         withCredentials: true  
