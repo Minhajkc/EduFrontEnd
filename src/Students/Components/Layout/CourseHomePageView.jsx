@@ -18,6 +18,8 @@ const CourseHomePageView = () => {
     const fetchCategories = async () => {
       try {
         const response = await getCourseCategory();
+        const responses = await StudentInstance.get('/check-auth');
+        console.log('Auth check response:', responses);
         // Take the first 4 categories
         setCategories(response.slice(0, 4));
       } catch (err) {
