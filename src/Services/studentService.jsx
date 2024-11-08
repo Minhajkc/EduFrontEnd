@@ -474,13 +474,3 @@ export const submitContactForm = async (formData) => {
   }
 };
 
-export const verifyAuth = async () => {
-  try {
-      const response = await StudentInstance.get('/test-cookie');
-      console.log('Auth check response:', response);
-      return response.data.authenticated;
-  } catch (error) {
-      console.error('Auth check error:', error);
-      return false;
-  }
-};
