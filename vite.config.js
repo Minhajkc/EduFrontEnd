@@ -9,6 +9,7 @@ export default defineConfig({
       '/': {
         target: 'https://eduserver-04u2.onrender.com', // Your backend URL
         changeOrigin: true,
+        secure: true
       },
     },
   },
