@@ -58,29 +58,7 @@ const Hero = () => {
        <div className="hidden lg:block lg:w-1/2 relative ml-5 ">
   <div className="w-full h-[600px] relative">
 
-  <img src="images/Newhome.png" alt="Student 3" className="w-[600px] ml-6" />
-
-
- 
-    {/* <div className="absolute top-0 right-12 p-2 bg-white rounded-full border-4 border-blue-500">
-      <div className="w-79 h-72 bg-blue-500 rounded-full overflow-hidden">
-        <img src="src/assets/images/SignUpimage.PNG" alt="Student 1" className="w-full h-full object-cover" />
-      </div>
-    </div>
-
-  
-    <div className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-white border-4 border-red-500 rounded-full">
-      <div className="w-90 h-80 bg-red-500 rounded-full overflow-hidden">
-        <img src="src/assets/images/SignUpimage.PNG" alt="Student 2" className="w-full h-full object-cover" />
-      </div>
-    </div>
-
-   
-    <div className="absolute bottom-0 right-20 p-2 bg-white border-4 border-yellow-500 rounded-full ">
-      <div className="w-60 h-60 bg-yellow-500 rounded-full overflow-hidden">
-        <img src="src/assets/images/SignUpimage.PNG" alt="Student 3" className="w-full h-full object-cover" />
-      </div>
-    </div> */}
+  <img src="images/Newhome.png"  alt="Student 3" className="w-[600px] ml-6" />
   </div>
 </div>
         
