@@ -21,7 +21,7 @@ const MentorApply = () => {
           </div>
         </div>
         <img 
-          src="/path-to-mentor-illustration.png" 
+          src="images/homebanner2.png" 
           alt="Mentoring" 
           className="w-full sm:w-1/2 lg:w-1/3"
         />
@@ -33,7 +33,7 @@ const MentorApply = () => {
         <div className="w-full lg:w-1/3">
           <div className="bg-custom-cyan2 rounded-lg overflow-hidden">
             <img 
-              src="src/assets/images/SignUpimage.PNG" 
+              src="images/SignUpimage.PNG" 
               alt="Mentor" 
               className="w-full object-cover"
             />
