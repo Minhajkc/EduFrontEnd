@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import * as HeroIcons from '@heroicons/react/24/outline';
-import { getCourseCategory } from '../../../Services/studentService'; 
+import { getCourseCategory, verifyAuth } from '../../../Services/studentService'; 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { MdExplore } from "react-icons/md";
 import {Spin} from 'antd'
@@ -18,8 +18,8 @@ const CourseHomePageView = () => {
     const fetchCategories = async () => {
       try {
         const response = await getCourseCategory();
-        const responses = await StudentInstance.get('/check-auth');
-        console.log('Auth check response:', responses);
+        const helo = await verifyAuth()
+        console.log(helo,'helooo')
         // Take the first 4 categories
         setCategories(response.slice(0, 4));
       } catch (err) {
