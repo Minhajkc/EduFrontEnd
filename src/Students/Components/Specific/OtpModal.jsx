@@ -62,7 +62,7 @@ const OtpModal = ({ isOpen, onClose, formData }) => {
         setLoading(true); // Show loading spinner
         try {
             const otpValue = otp.join('');
-            const response = await axios.post('http://localhost:3000/verify', {
+            const response = await axios.post('https://eduserver-04u2.onrender.com/verify', {
                 email: formData.email,
                 otp: otpValue,
                 password: formData.password, 

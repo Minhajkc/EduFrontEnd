@@ -10,7 +10,7 @@ const MentorChat = () => {
 
   useEffect(() => {
     // Connect to the Socket.IO server
-    const socketIo = io('http://localhost:3000', { withCredentials: true });
+    const socketIo = io('https://eduserver-04u2.onrender.com', { withCredentials: true });
     setSocket(socketIo);
 
     // Listen for incoming chat messages
