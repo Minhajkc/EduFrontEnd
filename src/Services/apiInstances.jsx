@@ -9,6 +9,33 @@ const StudentInstance = axios.create({
         withCredentials: true
 })
 
+
+StudentInstance.interceptors.request.use(
+    (config) => {
+        // Add these headers to every request
+        config.headers = {
+            ...config.headers,
+            'Access-Control-Allow-Credentials': true,
+        };
+        return config;
+    },
+    (error) => {
+        return Promise.reject(error);
+    }
+);
+
+// Add response interceptor to handle errors and cookie-related issues
+StudentInstance.interceptors.response.use(
+    (response) => {
+        console.log('Response Headers:', response.headers);
+        return response;
+    },
+    (error) => {
+        console.error('Request Error:', error);
+        return Promise.reject(error);
+    }
+);
+
 const MentorInstance = axios.create({
     baseURL: "https://eduserver-04u2.onrender.com/Mentor/",
     headers: {
